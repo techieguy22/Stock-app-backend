@@ -9,8 +9,7 @@ const csvFilePath = 'C:/Users/ABHIJEET/OneDrive/Desktop/hypergro/downloads/EQ200
 // MongoDB configuration
 const dbName = 'backend_data';
 const collectionName = 'backend_col';
-const url = 'mongodb+srv://alphacoder221:mongopass@cluster0.l0tr0qe.mongodb.net/backend_data?retryWrites=true&w=majority';
-
+const url = ""
 // Define the schema for the stock data
 const stockSchema = new mongoose.Schema({
   SC_CODE: { type: Number, required: true },

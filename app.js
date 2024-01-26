@@ -12,8 +12,7 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // MongoDB connection URL
-const url = "mongodb+srv://alphacoder221:mongopass@cluster0.l0tr0qe.mongodb.net/23_old?retryWrites=true&w=majority";
-
+const url =""
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
